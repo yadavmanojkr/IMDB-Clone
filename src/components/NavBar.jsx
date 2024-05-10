@@ -10,7 +10,7 @@ function NavBar({ handleSearch }) {
       <Link to='/' className='text-white text-2xl font-bold p-3'>Movies</Link>
       <Link to='Watchlist' className='text-white text-2xl font-bold p-3'>Watchlist</Link>
 
-      <SearchBar handleSubmit={handleSearch} />
+      <SearchBar handleSearch={handleSearch} />
 
     </div>
   )
